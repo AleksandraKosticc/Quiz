@@ -1,7 +1,7 @@
 # Quiz
 Student project educational quiz for recognizing and learning the flags of Europe in 3 levels of the game.
 
-![first-level](https://user-images.githubusercontent.com/16460530/153604657-1d9b96a4-df69-41fc-a77c-43077736076a.gif)
+![first-level](https://user-images.githubusercontent.com/16460530/153648176-04e6cc20-98cc-4080-8182-2989157ada31.gif)
 
 
 If you need help, you can look at the map of Europe.
