@@ -1,0 +1,15 @@
+﻿<Window x:Class="Kviz.SecondMessage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Kviz"
+        mc:Ignorable="d"
+        Height="400" Width="400"
+        ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+
+    <Grid Margin="0,0,487,189">
+        <Image x:Name="picture" Source="image/ostalo/happy-face.png" HorizontalAlignment="Left" Height="220" Margin="85,68,-300,-108" VerticalAlignment="Top" Width="220"/>
+        <TextBlock Text="  Čestitam" FontSize="24" x:Name="NameOfCountry" Margin="128,293,-269,-153" RenderTransformOrigin="1.765,0.562" VerticalAlignment="Top" FontFamily="Segoe UI Black" Height="42" HorizontalAlignment="Left" Width="141"/>
+    </Grid>
+</Window>

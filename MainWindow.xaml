@@ -1,0 +1,22 @@
+﻿<Window x:Class="Kviz.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Kviz"
+        mc:Ignorable="d" Height="600" Width="682" ShowInTaskbar="False"
+        WindowStyle="None" ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen" >
+ 
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="image/ostalo/background.png" Stretch="None"/>
+        </Grid.Background>
+        <Button Content="START" HorizontalAlignment="Left" Margin="242,453,0,0" VerticalAlignment="Top" Width="200" Height="54" FontSize="18" FontFamily="Segoe UI Black" Foreground="White" Background="#FF1EAA10" RenderTransformOrigin="0.496,1.275" Click="OpenWindow"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="644,10,0,0" VerticalAlignment="Top" Width="28" Height="40" BorderBrush="{x:Null}" Foreground="{x:Null}" Click="Close_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="image/ostalo/cancel.png" Stretch="Uniform"/>
+            </Button.Background>
+        </Button>
+    </Grid>
+</Window>

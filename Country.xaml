@@ -1,0 +1,1099 @@
+﻿<Window x:Class="Kviz.Country"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Kviz"
+        mc:Ignorable="d"
+        Title="Country" Height="600" Width="1024"
+        WindowStyle="None" ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen">
+    <Grid Margin="-131,0,214,-4" RenderTransformOrigin="0.5,0.5" Background="#FF1CD3FB">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="167*"/>
+            <ColumnDefinition Width="766*"/>
+        </Grid.ColumnDefinitions>
+        <Grid Margin="-66,12,74,-5" RenderTransformOrigin="0.5,0.5" Grid.ColumnSpan="2">
+            <Grid.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="4.627"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Grid.RenderTransform>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="470*"/>
+                <ColumnDefinition Width="463*"/>
+            </Grid.ColumnDefinitions>
+            <Path Stretch="Fill" Stroke="#00FFCE" HorizontalAlignment="Left" Margin="395.437,359.005,0,0" Width="48.795" 
+            x:Name="Switzerland" VerticalAlignment="Top" Height="32.188"
+              Data="M2111,1241L2111,1244L2109,1248L2114,1251L2120,1251L2119,1258L2114,1261L2106,1259L2104,1265L2098,1266L2096,
+			  1263L2090,1269L2085,1269L2080,1266L2076,1259L2071,1261L2071,1254L2079,1245L2079,1241L2084,1242L2087,1239L2096,1240L2099,1236L2111,1241Z" RenderTransformOrigin="-0.356,1.506" MouseEnter="Switzerland_MouseEnter">
+                <Path.Style>
+                    <Style TargetType="Path">
+                        <Setter Property="Fill" Value="#FF20ABEC"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Fill" Value="Red"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Path.Style>
+                <Path.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="2.269"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Path.RenderTransform>
+            </Path>
+            <Path Stretch="Fill" Stroke="#00FFCE" HorizontalAlignment="Left" Margin="181.395,500.413,0,0" Width="35.3" 
+            x:Name="Cyprus" VerticalAlignment="Top" Height="12.359"
+              Data="M2382,1427L2382,1428L2371,1433L2365,1432L2363,1426L2368,1426L2370,1426L2373,1425L2375,1425L2376,1426L2376,1427L2377,1427L2379,
+			  1427L2381,1426L2382,1427Z" RenderTransformOrigin="0.907,1.304" Grid.Column="1" MouseEnter="Cyprus_MouseEnter">
+                <Path.Style>
+                    <Style TargetType="Path">
+                        <Setter Property="Fill" Value="#FF20ABEC"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Fill" Value="Red"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Path.Style>
+                <Path.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-10.107"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Path.RenderTransform>
+            </Path>
+            <Path Stretch="Fill" Stroke="#00FFCE" HorizontalAlignment="Left" Margin="461.481,319.462,0,0" Width="66.134" 
+            x:Name="Czech" VerticalAlignment="Top" Height="38.461"
+              Data="M2193,1223L2187,1220L2182,1221L2174,1216L2170,1217L2163,1224L2155,1218L2149,1211L2143,1207L2142,1200L2140,
+			  1195L2148,1191L2152,1186L2160,1183L2163,1180L2166,1182L2171,1180L2176,1186L2185,1187L2184,1192L2190,1195L2192,1191L2199,
+			  1193L2200,1198L2208,1199L2214,1208L2210,1208L2209,1211L2206,1212L2205,1216L2203,1216L2203,1218L2199,1220L2194,1219L2193,1223Z" RenderTransformOrigin="0.5,0.5" Grid.ColumnSpan="2" MouseEnter="Czech_MouseEnter">
+                <Path.Style>
+                    <Style TargetType="Path">
+                        <Setter Property="Fill" Value="#FF20ABEC"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Fill" Value="Red"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Path.Style>
+                <Path.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="4.691"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Path.RenderTransform>
+            </Path>
+            <Path Stretch="Fill" Stroke="#00FFCE" HorizontalAlignment="Left" Margin="402.134,257.445,0,0" Width="89.482" 
+            x:Name="Gemany" VerticalAlignment="Top" Height="114.125"
+              Data="M2114,1108L2114,1115L2126,1120L2126,1127L2137,1123L2143,1118L2156,1125L2161,1131L2164,1141L2160,1146L2164,
+			  1152L2167,1162L2166,1168L2171,1180L2166,1182L2163,1180L2160,1183L2152,1186L2148,1191L2140,1195L2142,1200L2143,1207L2149,
+			  1211L2155,1218L2151,1226L2147,1228L2149,1239L2148,1242L2144,1239L2139,1238L2131,1241L2121,1240L2120,1245L2114,1240L2111,
+			  1241L2099,1236L2096,1240L2087,1239L2088,1228L2094,1216L2078,1213L2073,1208L2073,1201L2071,1197L2072,1185L2070,1167L2077,
+			  1167L2080,1160L2083,1143L2081,1137L2083,1133L2092,1132L2094,1136L2102,1126L2099,1119L2099,1108L2107,1111L2114,1108Z" RenderTransformOrigin="0.5,0.5" Grid.ColumnSpan="2" MouseEnter="Gemany_MouseEnter">
+                <Path.Style>
+                    <Style TargetType="Path">
+                        <Setter Property="Fill" Value="#FF20ABEC"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Fill" Value="Red"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Path.Style>
+                <Path.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="3.45"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Path.RenderTransform>
+            </Path>
+            <Path Stretch="Fill" Stroke="#00FFCE" HorizontalAlignment="Left" Margin="426.648,218.796,0,0" Width="45.467" 
+            x:Name="Denmark" VerticalAlignment="Top" Height="40.794"
+              Data="M2145,1096L2138,1112L2127,1101L2125,1092L2141,1086L2145,1096ZM2125,1079L2123,1086L2119,1084L2111,1098L2114,
+			  1108L2107,1111L2099,1108L2094,1098L2094,1077L2096,1072L2099,1066L2109,1064L2113,1059L2122,1053L2121,1063L2118,1070L2119,1076L2125,1079Z" RenderTransformOrigin="0.5,0.5" Grid.ColumnSpan="2" MouseEnter="Denmark_MouseEnter">
+                <Path.Style>
+                    <Style TargetType="Path">
+                        <Setter Property="Fill" Value="#FF20ABEC"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Fill" Value="Red"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Path.Style>
+            </Path>
+            <Path Stretch="Fill" Stroke="#00FFCE" HorizontalAlignment="Left" Margin="231.035,408.032,0,0" Width="129.356" 
+            x:Name="Spain" VerticalAlignment="Top" Height="108.886"
+              Data="M1903,1330L1904,1319L1899,1312L1915,1301L1929,1304L1944,1304L1955,1306L1965,1306L1983,1306L1987,1312L2008,1319L2012,1316L2024,1323L2037,1321L2038,1329L2027,1339L2013,1342L2012,1347L2005,1355L2001,1367L2005,1375L1999,1382L1996,1391L1988,1394L1980,1404L1966,1405L1955,1404L1948,1409L1944,1415L1938,1413L1934,1409L1931,1401L1921,1399L1920,1394L1924,1389L1926,1385L1922,1381L1925,1371L1920,1363L1925,1361L1926,1355L1927,1352L1927,1341L1933,1337L1930,1329L1923,1329L1921,1331L1915,1331L1912,1324L1907,1326L1903,1330Z" RenderTransformOrigin="0.5,0.5" MouseEnter="Spain_MouseEnter">
+                <Path.Style>
+                    <Style TargetType="Path">
+                        <Setter Property="Fill" Value="#FF20ABEC"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Fill" Value="Red"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Path.Style>
+                <Path.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="5.481"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Path.RenderTransform>
+            </Path>
+            <Path Stretch="Fill" Stroke="#00FFCE" HorizontalAlignment="Left" Margin="50.663,-0.642,0,0" Width="56.288" 
+            x:Name="Finland" VerticalAlignment="Top" Height="211.947"
+              Data="M2322,767L2320,788L2337,808L2327,830L2340,861L2333,884L2343,904L2338,920L2355,937L2350,949L2340,963L2316,993L2296,994L2276,1003L2258,1007L2252,995L2241,988L2244,965L2238,943L2243,929L2254,913L2279,886L2286,880L2285,869L2270,856L2266,845L2266,801L2248,781L2234,765L2240,757L2253,774L2267,772L2279,780L2290,766L2295,743L2312,732L2327,745L2322,767Z" RenderTransformOrigin="0.5,0.5" Grid.Column="1" MouseEnter="Finland_MouseEnter">
+                <Path.Style>
+                    <Style TargetType="Path">
+                        <Setter Property="Fill" Value="#FF20ABEC"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Fill" Value="Red"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Path.Style>
+                <Path.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform AngleX="0.322"/>
+                        <RotateTransform Angle="-26.585"/>
+                        <TranslateTransform X="-0.559" Y="0.064"/>
+                    </TransformGroup>
+                </Path.RenderTransform>
+            </Path>
+            <Path Stretch="Fill" Stroke="#00FFCE" HorizontalAlignment="Left" Margin="-243.183,282.353,0,-289.344" Width="659.323" 
+            x:Name="France" VerticalAlignment="Top" Height="573.991"
+              Data="M1419,1816L1414,1820L1409,1821L1408,1818L1405,1817L1402,1820L1397,1818L1400,1813L1401,1808L1402,1803L1398,1797L1397,1789L1403,1780L1407,1781L1415,1784L1427,1793L1429,1798L1422,1808L1419,1816ZM2110,1325L2106,1337L2101,1334L2099,1324L2101,1318L2108,1312L2110,1325ZM2044,1193L2051,1201L2057,1199L2067,1207L2069,1209L2073,1208L2078,1213L2094,1216L2088,1228L2087,1239L2084,1242L2079,1241L2079,1245L2071,1254L2071,1261L2076,1259L2080,1266L2079,1270L2083,1276L2079,1281L2082,1293L2088,1295L2087,1302L2076,1311L2054,1307L2038,1312L2037,1321L2024,1323L2012,1316L2008,1319L1987,1312L1983,1306L1988,1297L1990,1266L1979,1249L1971,1240L1954,1234L1953,1222L1967,1218L1986,1222L1982,1203L1993,1210L2019,1197L2022,1183L2032,1179L2033,1185L2039,1186L2044,1193Z" RenderTransformOrigin="0.5,0.5" MouseEnter="France_MouseEnter">
+                <Path.Style>
+                    <Style TargetType="Path">
+                        <Setter Property="Fill" Value="#FF20ABEC"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Fill" Value="Red"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Path.Style>
+                <Path.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="5.274"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Path.RenderTransform>
+            </Path>
+            <Path Stretch="Fill" Stroke="#00FFCE" HorizontalAlignment="Left" Margin="255.778,178.853,0,0" Width="84.473" 
+            x:Name="UK" VerticalAlignment="Top" Height="138.008"
+              Data="M1941,1116L1935,1129L1926,1125L1919,1126L1922,1115L1919,1105L1929,1104L1941,1116ZM1970,1034L1958,1056L1970,1054L1982,1054L1979,1070L1969,1089L1981,1090L1981,1092L1991,1115L1999,1118L2006,1140L2009,1147L2022,1150L2021,1162L2015,1167L2020,1177L2010,1186L1995,1186L1976,1191L1971,1187L1963,1195L1953,1193L1945,1200L1939,1196L1956,1178L1966,1174L1966,1174L1948,1171L1945,1164L1957,1158L1951,1149L1953,1136L1969,1138L1969,1138L1971,1127L1964,1115L1963,1115L1950,1112L1947,1106L1951,1098L1948,1092L1942,1102L1941,1083L1935,1072L1939,1051L1948,1034L1957,1035L1970,1034Z" RenderTransformOrigin="0.5,0.5" MouseEnter="UK_MouseEnter">
+                <Path.Style>
+                    <Style TargetType="Path">
+                        <Setter Property="Fill" Value="#FF20ABEC"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Fill" Value="Red"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Path.Style>
+                <Path.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-0.721"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Path.RenderTransform>
+            </Path>
+            <Path Stretch="Fill" Stroke="#00FFCE" HorizontalAlignment="Left" Margin="276.188,389.482,0,0" Width="65.636" 
+            x:Name="Georgia" VerticalAlignment="Top" Height="40.119"
+              Data="M2466,1335L2468,1328L2465,1318L2459,1312L2453,1311L2449,1306L2450,1304L2459,1307L2476,1309L2491,1317L2493,1319L2500,1317L2510,1320L2513,1326L2520,1330L2517,1332L2523,1340L2521,1342L2515,1341L2507,1337L2504,1339L2489,1341L2478,1334L2466,1335Z" RenderTransformOrigin="0.5,0.5" Grid.Column="1" MouseEnter="Georgia_MouseEnter">
+                <Path.Style>
+                    <Style TargetType="Path">
+                        <Setter Property="Fill" Value="#FF20ABEC"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Fill" Value="Red"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Path.Style>
+                <Path.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-6.842"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Path.RenderTransform>
+            </Path>
+            <Path Stretch="Fill" Stroke="#00FFCE" HorizontalAlignment="Left" Margin="71.836,444.933,0,0" Width="68.217" 
+            x:Name="Greece" VerticalAlignment="Top" Height="98.064"
+              Data="M2268,1418L2274,1422L2282,1422L2291,1423L2290,1425L2296,1423L2295,1427L2279,1429L2279,1426L2266,1424L2268,1418ZM2300,1334L2296,1344L2294,1345L2287,1345L2281,1343L2268,1347L2275,1355L2270,1358L2264,1358L2258,1350L2256,1354L2258,1362L2264,1369L2259,1372L2266,1379L2271,1383L2271,1391L2261,1387L2264,1394L2257,1396L2262,1408L2254,1408L2245,1402L2241,1391L2239,1382L2235,1375L2229,1367L2228,1363L2233,1356L2234,1351L2238,1349L2238,1345L2245,1344L2249,1340L2255,1341L2257,1338L2259,1338L2267,1338L2276,1334L2284,1339L2294,1338L2294,1330L2300,1334Z" RenderTransformOrigin="0.5,0.5" Grid.Column="1" MouseEnter="Greece_MouseEnter">
+                <Path.Style>
+                    <Style TargetType="Path">
+                        <Setter Property="Fill" Value="#FF20ABEC"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Fill" Value="Red"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Path.Style>
+                <Path.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-0.555"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Path.RenderTransform>
+            </Path>
+            <Path Stretch="Fill" Stroke="#00FFCE" HorizontalAlignment="Left" Margin="1.667,379.168,0,0" Width="66.746" 
+            x:Name="Croatia" VerticalAlignment="Top" Height="63.662"
+              Data="M2213,1267L2216,1273L2220,1278L2215,1284L2210,1280L2203,1281L2193,1278L2188,1278L2185,1282L2181,1278L2179,1285L2185,1292L2187,1297L2192,1302L2196,1306L2201,1312L2210,1318L2209,1321L2199,1315L2192,1309L2182,1305L2173,1294L2175,1292L2170,1286L2170,1280L2162,1278L2159,1285L2156,1280L2156,1274L2156,1274L2164,1274L2166,1272L2170,1274L2174,1275L2174,1270L2178,1268L2179,1262L2188,1258L2192,1260L2200,1267L2209,1270L2213,1267Z" RenderTransformOrigin="0.5,0.5" Grid.Column="1" MouseEnter="Croatia_MouseEnter">
+                <Path.Style>
+                    <Style TargetType="Path">
+                        <Setter Property="Fill" Value="#FF20ABEC"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Fill" Value="Red"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Path.Style>
+                <Path.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-4.21"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Path.RenderTransform>
+            </Path>
+            <Path Stretch="Fill" Stroke="#00FFCE" HorizontalAlignment="Left" Margin="432.973,348.42,0,0" Width="74.675" 
+            x:Name="Austria" VerticalAlignment="Top" Height="35.285"
+              Data="M2193,1231L2192,1238L2186,1238L2188,1242L2184,1252L2182,1255L2172,1255L2167,1259L2157,1258L2142,1253L2139,1248L2128,1251L2127,1254L2120,1251L2114,1251L2109,1248L2111,1244L2111,1241L2114,1240L2120,1245L2121,1240L2131,1241L2139,1238L2144,1239L2148,1242L2149,1239L2147,1228L2151,1226L2155,1218L2163,1224L2170,1217L2174,1216L2182,1221L2187,1220L2193,1223L2192,1225L2193,1231Z" RenderTransformOrigin="0.5,0.5" Grid.ColumnSpan="2" MouseEnter="Austria_MouseEnter">
+                <Path.Style>
+                    <Style TargetType="Path">
+                        <Setter Property="Fill" Value="#FF20ABEC"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Fill" Value="Red"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Path.Style>
+                <Path.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="1.364"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Path.RenderTransform>
+            </Path>
+            <Path Stretch="Fill" Stroke="#00FFCE" HorizontalAlignment="Left" Margin="402.077,372.815,0,0" Width="120.539" 
+            x:Name="Italy" VerticalAlignment="Top" Height="141.414"
+              Data="M2177,1383L2173,1394L2174,1398L2172,1405L2163,1400L2158,1398L2142,1391L2144,1384L2157,1385L2168,1384L2177,1383ZM2106,1340L2113,1350L2111,1369L2106,1368L2102,1373L2098,1369L2097,1352L2095,1343L2101,1344L2106,1340ZM2142,1253L2157,1258L2156,1266L2159,1272L2150,1270L2141,1276L2142,1283L2140,1288L2144,1296L2154,1304L2160,1316L2172,1328L2181,1328L2184,1332L2181,1335L2191,1340L2199,1344L2208,1352L2209,1355L2207,1360L2201,1353L2192,1351L2187,1360L2195,1366L2194,1373L2189,1374L2183,1386L2178,1387L2178,1383L2181,1375L2183,1372L2179,1364L2175,1357L2171,1355L2167,1348L2160,1346L2155,1340L2147,1339L2139,1332L2128,1322L2121,1314L2117,1299L2112,1297L2103,1292L2098,1294L2091,1301L2087,1302L2088,1295L2082,1293L2079,1281L2083,1276L2079,1270L2080,1266L2085,1269L2090,1269L2096,1263L2098,1266L2104,1265L2106,1259L2114,1261L2119,1258L2120,1251L2127,1254L2128,1251L2139,1248L2142,1253Z" RenderTransformOrigin="0.5,0.5" Grid.ColumnSpan="2" MouseEnter="Italy_MouseEnter">
+                <Path.Style>
+                    <Style TargetType="Path">
+                        <Setter Property="Fill" Value="#FF20ABEC"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Fill" Value="Red"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Path.Style>
+                <Path.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="1.041"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Path.RenderTransform>
+            </Path>
+            <Path Stretch="Fill" Stroke="#00FFCE" HorizontalAlignment="Left" Margin="4.065,374.962,0,0" Width="30.417" 
+            x:Name="Slovenia" VerticalAlignment="Top" Height="25.573"
+              Data="M2157,1258L2167,1259L2172,1255L2182,1255L2184,1252L2186,1252L2188,1258L2179,1262L2178,1268L2174,1270L2174,1275L2170,1274L2166,1272L2164,1274L2156,1274L2159,1272L2156,1266L2157,1258Z" RenderTransformOrigin="0.5,0.5" Grid.Column="1" MouseEnter="Slovenia_MouseEnter">
+                <Path.Style>
+                    <Style TargetType="Path">
+                        <Setter Property="Fill" Value="#FF20ABEC"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Fill" Value="Red"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Path.Style>
+            </Path>
+            <Path Stretch="Fill" Stroke="#00FFCE" HorizontalAlignment="Left" Margin="8.481,261.809,0,0" Width="97.769" 
+            x:Name="Poland" VerticalAlignment="Top" Height="90.047"
+              Data="M2171,1180L2166,1168L2167,1162L2164,1152L2160,1146L2164,1141L2161,1131L2169,1126L2186,1117L2200,1111L2211,1114L2212,1118L2223,1119L2236,1121L2257,1121L2263,1123L2265,1128L2266,1137L2269,1144L2269,1151L2262,1155L2265,1163L2266,1171L2271,1187L2270,1192L2265,1194L2254,1208L2257,1216L2255,1215L2244,1208L2236,1211L2231,1209L2224,1213L2219,1207L2214,1209L2214,1208L2208,1199L2200,1198L2199,1193L2192,1191L2190,1195L2184,1192L2185,1187L2176,1186L2171,1180Z" RenderTransformOrigin="0.5,0.5" Grid.Column="1" MouseEnter="Poland_MouseEnter">
+                <Path.Style>
+                    <Style TargetType="Path">
+                        <Setter Property="Fill" Value="#FF20ABEC"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Fill" Value="Red"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Path.Style>
+                <Path.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-2.979"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Path.RenderTransform>
+            </Path>
+            <Path Stretch="Fill" Stroke="#00FFCE" HorizontalAlignment="Left" Margin="127.267,353.415,0,0" Width="55.828" 
+            x:Name="Moldova" VerticalAlignment="Top" Height="48.121"
+              Data="M2300,1229L2303,1227L2310,1225L2318,1231L2323,1231L2328,1236L2327,1241L2331,1244L2333,1251L2337,1255L2336,1257L2338,1259L2335,1260L2328,1260L2327,1257L2325,1259L2326,1262L2323,1267L2321,1272L2318,1274L2316,1267L2317,1260L2317,1253L2310,1243L2307,1236L2303,1231L2300,1229Z" RenderTransformOrigin="0.5,0.5" Grid.Column="1" MouseEnter="Moldova_MouseEnter">
+                <Path.Style>
+                    <Style TargetType="Path">
+                        <Setter Property="Fill" Value="#FF20ABEC"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Fill" Value="Red"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Path.Style>
+                <Path.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-0.711"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Path.RenderTransform>
+            </Path>
+            <Path Stretch="Fill" Stroke="#00FFCE" HorizontalAlignment="Left" Margin="95.815,408.953,0,0" Width="62.467" 
+            x:Name="Bulgaria" VerticalAlignment="Top" Height="45.787"
+              Data="M2256,1294L2259,1300L2263,1299L2272,1301L2288,1302L2294,1298L2307,1295L2315,1300L2322,1302L2316,1308L2312,1319L2315,1328L2306,1326L2294,1330L2294,1338L2284,1339L2276,1334L2267,1338L2259,1338L2258,1328L2253,1323L2255,1321L2254,1319L2255,1314L2260,1309L2254,1303L2253,1297L2256,1294Z" RenderTransformOrigin="0.5,0.5" Grid.Column="1" MouseEnter="Bulgaria_MouseEnter">
+                <Path.Style>
+                    <Style TargetType="Path">
+                        <Setter Property="Fill" Value="#FF20ABEC"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Fill" Value="Red"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Path.Style>
+            </Path>
+            <Path Stretch="Fill" Stroke="#00FFCE" HorizontalAlignment="Left" Margin="59.771,383.432,0,0" Width="42.877" 
+            x:Name="Serbia" VerticalAlignment="Top" Height="58.461"
+            Data=" M2236,1275L2243,1279L2244,1285L2250,1290L2254,1286L2257,1288L2254,1291L2256,1294L2253,1297L2254,1303L2260,1309L2255,1314L2254,1319L2255,1321L2253,1323L2248,1323L2244,1324L2244,1323L2245,1321L2246,1317L2245,1318L2242,1315L2241,1314L2239,1312L2237,1311L2235,1309L2233,1309L2232,1314L2229,1315L2230,1314L2226,1311L2222,1309L2221,1307L2218,1305L2220,1304L2222,1297L2217,1291L2219,1284L2215,1284L2220,1278L2216,1273L2213,1267L2222,1263L2229,1264L2235,1270L2236,1275Z" RenderTransformOrigin="0.5,0.5" Grid.Column="1" MouseEnter="Serbia_MouseEnter">
+                <Path.Style>
+                    <Style TargetType="Path">
+                        <Setter Property="Fill" Value="#FF20ABEC"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Fill" Value="Red"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Path.Style>
+                <Path.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-1.369"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Path.RenderTransform>
+            </Path>
+            <Path Stretch="Fill" Stroke="#00FFCE" HorizontalAlignment="Left" Margin="75.006,439.035,0,0" Width="27.165" 
+            x:Name="Macedonia" VerticalAlignment="Top" Height="21.32"
+              Data="M2233,1330L2234,1330L2235,1327L2241,1325L2244,1324L2248,1323L2253,1323L2258,1328L2259,1338L2257,1338L2255,1341L2249,1340L2245,1344L2238,1345L2233,1341L2232,1335L2233,1330Z" RenderTransformOrigin="0.5,0.5" Grid.Column="1" MouseEnter="Macedonia_MouseEnter">
+                <Path.Style>
+                    <Style TargetType="Path">
+                        <Setter Property="Fill" Value="#FF20ABEC"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Fill" Value="Red"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Path.Style>
+                <Path.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-1.11"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Path.RenderTransform>
+            </Path>
+            <Path Stretch="Fill" Stroke="#00FFCE" HorizontalAlignment="Left" Margin="65.013,432.395,0,0" Width="17.217" 
+            x:Name="Albania" VerticalAlignment="Top" Height="45.798"
+              Data="M2233,1330L2232,1335L2233,1341L2238,1345L2238,1349L2234,1351L2233,1356L2228,1363L2226,1362L2226,1358L2220,1354L2219,1347L2220,1337L2221,1332L2219,1330L2219,1325L2223,1317L2224,1320L2227,1319L2230,1323L2232,1324L2233,1330Z" RenderTransformOrigin="0.5,0.5" Grid.Column="1" MouseEnter="Albania_MouseEnter">
+                <Path.Style>
+                    <Style TargetType="Path">
+                        <Setter Property="Fill" Value="#FF20ABEC"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Fill" Value="Red"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Path.Style>
+                <Path.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="0.881"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Path.RenderTransform>
+            </Path>
+            <Path Stretch="Fill" Stroke="#00FFCE" HorizontalAlignment="Left" Margin="56.618,423.255,0,0" Width="19.87" 
+            x:Name="Montenegro" VerticalAlignment="Top" Height="25.396"
+              Data="M2224,1320L2223,1317L2219,1325L2219,1330L2217,1328L2214,1324L2209,1321L2210,1318L2212,1310L2216,1306L2218,1305L2221,1307L2222,1309L2226,1311L2230,1314L2229,1315L2227,1319L2224,1320Z" RenderTransformOrigin="0.5,0.5" Grid.Column="1" MouseEnter="Montenegro_MouseEnter">
+                <Path.Style>
+                    <Style TargetType="Path">
+                        <Setter Property="Fill" Value="#FF20ABEC"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Fill" Value="Red"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Path.Style>
+                <Path.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-1.859"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Path.RenderTransform>
+            </Path>
+            <Path Stretch="Fill" Stroke="#00FFCE" HorizontalAlignment="Left" Margin="28.978,356.028,0,0" Width="71.399" 
+            x:Name="Hungary" VerticalAlignment="Top" Height="36.089"
+            Data="M2184,1252L2188,1242L2186,1238L2192,1238L2193,1231L2198,1235L2203,1237L2212,1235L2213,1232L2217,1231L2223,1229L2224,1230L2229,1228L2232,1224L2235,1223L2247,1228L2250,1226L2256,1231L2257,1235L2250,1239L2244,1250L2238,1261L2229,1264L2222,1263L2213,1267L2209,1270L2200,1267L2192,1260L2188,1258L2186,1252L2184,1252Z" RenderTransformOrigin="0.5,0.5" Grid.Column="1" MouseEnter="Hungary_MouseEnter">
+                <Path.Style>
+                    <Style TargetType="Path">
+                        <Setter Property="Fill" Value="#FF20ABEC"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Fill" Value="Red"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Path.Style>
+                <Path.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform AngleY="-0.726"/>
+                        <RotateTransform Angle="1.563"/>
+                        <TranslateTransform X="0.012" Y="-0.426"/>
+                    </TransformGroup>
+                </Path.RenderTransform>
+            </Path>
+            <Path Stretch="Fill" Stroke="#00FFCE" HorizontalAlignment="Left" Margin="33.986,342.473,0,0" Width="65.517" 
+            x:Name="Slovakia" VerticalAlignment="Top" Height="24.813"
+            Data="M2214,1208L2214,1209L2219,1207L2224,1213L2231,1209L2236,1211L2244,1208L2255,1215L2252,1219L2250,1226L2247,1228L2235,1223L2232,1224L2229,1228L2224,1230L2223,1229L2217,1231L2213,1232L2212,1235L2203,1237L2198,1235L2193,1231L2192,1225L2193,1223L2194,1219L2199,1220L2203,1218L2203,1216L2205,1216L2206,1212L2209,1211L2210,1208L2214,1208Z" RenderTransformOrigin="0.5,0.5" Grid.Column="1" MouseEnter="Slovakia_MouseEnter">
+                <Path.Style>
+                    <Style TargetType="Path">
+                        <Setter Property="Fill" Value="#FF20ABEC"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Fill" Value="Red"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Path.Style>
+                <Path.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform AngleX="5.214"/>
+                        <RotateTransform Angle="0.607"/>
+                        <TranslateTransform X="0.284"/>
+                    </TransformGroup>
+                </Path.RenderTransform>
+            </Path>
+            <Path Stretch="Fill" Stroke="#00FFCE" HorizontalAlignment="Left" Margin="74.201,360.988,0,0" Width="94.326" 
+            x:Name="Romania" VerticalAlignment="Top" Height="58.682"
+            Data="M2257,1235L2261,1232L2268,1233L2275,1233L2281,1238L2284,1235L2293,1233L2295,1229L2300,1229L2303,1231L2307,1236L2310,1243L2317,1253L2317,1260L2316,1267L2318,1274L2323,1277L2328,1274L2333,1277L2334,1281L2328,1285L2325,1283L2322,1302L2315,1300L2307,1295L2294,1298L2288,1302L2272,1301L2263,1299L2259,1300L2256,1294L2254,1291L2257,1288L2254,1286L2250,1290L2244,1285L2243,1279L2236,1275L2235,1270L2229,1264L2238,1261L2244,1250L2250,1239L2257,1235Z" RenderTransformOrigin="0.5,0.5" Grid.Column="1" MouseEnter="Romania_MouseEnter">
+                <Path.Style>
+                    <Style TargetType="Path">
+                        <Setter Property="Fill" Value="#FF20ABEC"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Fill" Value="Red"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Path.Style>
+                <Path.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform AngleY="3.03"/>
+                        <RotateTransform Angle="-2.516"/>
+                        <TranslateTransform Y="-2.447"/>
+                    </TransformGroup>
+                </Path.RenderTransform>
+            </Path>
+            <Path Stretch="Fill" Stroke="#00FFCE" HorizontalAlignment="Left" Margin="25.661,397.471,0,0" Width="43.881" x:Name="BiH" VerticalAlignment="Top" Height="42.478"
+            Data="M2215,1284L2219,1284L2217,1291L2222,1297L2220,1304L2218,1305L2216,1306L2212,1310L2210,1318L2201,1312L2196,1306L2192,1302L2187,1297L2185,1292L2179,1285L2181,1278L2185,1282L2188,1278L2193,1278L2203,1281L2210,1280L2215,1284Z" RenderTransformOrigin="0.5,0.5" Grid.Column="1" MouseEnter="BiH_MouseEnter">
+                <Path.Style>
+                    <Style TargetType="Path">
+                        <Setter Property="Fill" Value="#FF20ABEC"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Fill" Value="Red"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Path.Style>
+                <Path.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-3.108"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Path.RenderTransform>
+            </Path>
+            <Path Stretch="Fill" Stroke="#00FFCE" HorizontalAlignment="Left" Margin="71.598,426.776,0,0" Width="18.7" 
+            x:Name="Kosovo" VerticalAlignment="Top" Height="18.294"
+              Data="M2235,1327L2234,1330L2233,1330L2232,1324L2230,1323L2227,1319L2229,1315L2232,1314L2233,1309L2235,1309L2237,1311L2239,1312L2241,1314L2242,1315L2245,1318L2246,1317L2245,1321L2244,1323L2244,1324L2241,1325L2235,1327Z" RenderTransformOrigin="0.5,0.5" Grid.Column="1" MouseEnter="Serbia_MouseEnter">
+                <Path.Style>
+                    <Style TargetType="Path">
+                        <Setter Property="Fill" Value="#FF20ABEC"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Fill" Value="Red"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Path.Style>
+                <Path.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="1.989"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Path.RenderTransform>
+            </Path>
+            <Path Stretch="Fill" Stroke="#00FFCE" HorizontalAlignment="Left" Margin="367.475,304.109,0,0" Width="37.929" 
+            x:Name="Belgium" VerticalAlignment="Top" Height="30.082"
+              Data="M2041,1176L2049,1177L2059,1173L2066,1181L2072,1185L2071,1197L2068,1198L2067,1207L2057,1199L2051,1201L2044,1193L2039,1186L2033,1185L2032,1179L2041,1176Z" RenderTransformOrigin="0.5,0.5" MouseEnter="Belgium_MouseEnter">
+                <Path.Style>
+                    <Style TargetType="Path">
+                        <Setter Property="Fill" Value="#FF20ABEC"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Fill" Value="Red"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Path.Style>
+                <Path.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-354.602"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Path.RenderTransform>
+            </Path>
+            <Path Stretch="Fill" Stroke="#00FFCE" HorizontalAlignment="Left" Margin="398.523,327.171,0,0" Width="6.092" 
+            x:Name="Luxembourg" VerticalAlignment="Top" Height="9.919"
+              Data="M2071,1197L2073,1201L2073,1208L2069,1209L2067,1207L2068,1198L2071,1197Z" RenderTransformOrigin="0.5,0.5" MouseEnter="Luxembourg_MouseEnter">
+                <Path.Style>
+                    <Style TargetType="Path">
+                        <Setter Property="Fill" Value="#FF20ABEC"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Fill" Value="Red"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Path.Style>
+                <Path.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="5.455"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Path.RenderTransform>
+            </Path>
+            <Path Stretch="Fill" Stroke="#00FFCE" HorizontalAlignment="Left" Margin="378.939,281.825,0,0" Width="36.153" 
+            x:Name="Netherlands" VerticalAlignment="Top" Height="32.936"
+              Data="M2071,1136L2081,1137L2083,1143L2080,1160L2077,1167L2070,1167L2072,1185L2066,1181L2059,1173L2049,1177L2041,1176L2046,1171L2056,1144L2071,1136Z" RenderTransformOrigin="0.5,0.5" MouseEnter="Netherlands_MouseEnter">
+                <Path.Style>
+                    <Style TargetType="Path">
+                        <Setter Property="Fill" Value="#FF20ABEC"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Fill" Value="Red"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Path.Style>
+                <Path.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="6.288"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Path.RenderTransform>
+            </Path>
+            <Path Stretch="Fill" Stroke="#00FFCE" HorizontalAlignment="Left" Margin="67.019,240.305,0,0" Width="70.99" 
+            x:Name="Lithuania" VerticalAlignment="Top" Height="38.787"
+              Data="M2257,1121L2256,1116L2257,1110L2252,1107L2241,1104L2238,1087L2251,1081L2270,1083L2280,1081L2282,1085L2288,1086L2299,1096L2300,1104L2291,1111L2288,1121L2276,1129L2265,1128L2263,1123L2257,1121Z" RenderTransformOrigin="0.5,0.5" Grid.Column="1" MouseEnter="Lithuania_MouseEnter">
+                <Path.Style>
+                    <Style TargetType="Path">
+                        <Setter Property="Fill" Value="#FF20ABEC"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Fill" Value="Red"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Path.Style>
+                <Path.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="6.826"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Path.RenderTransform>
+            </Path>
+            <Path Stretch="Fill" Stroke="#00FFCE" HorizontalAlignment="Left" Margin="135.673,422.164,0,0" Width="191.829" 
+            x:Name="Turkey" VerticalAlignment="Top" Height="65.474"
+              Data="M2415,1338L2431,1343L2444,1341L2453,1342L2466,1335L2478,1334L2489,1341L2491,1346L2490,1354L2498,1357L2502,1361L2495,1366L2498,1382L2496,1386L2502,1398L2497,1400L2493,1396L2480,1395L2475,1397L2463,1399L2457,1399L2444,1404L2435,1404L2429,1401L2416,1405L2413,1402L2412,1410L2409,1413L2406,1416L2402,1410L2406,1405L2400,1406L2390,1403L2383,1411L2366,1412L2357,1405L2345,1404L2342,1410L2334,1412L2324,1404L2311,1405L2305,1391L2297,1383L2302,1372L2295,1365L2307,1351L2325,1351L2329,1339L2350,1341L2364,1332L2377,1327L2395,1327L2415,1338ZM2306,1347L2297,1355L2294,1348L2294,1345L2296,1344L2300,1334L2294,1330L2306,1326L2315,1328L2317,1333L2326,1338L2324,1342L2311,1343L2306,1347Z" RenderTransformOrigin="0.5,0.5" Grid.Column="1" MouseEnter="Turkey_MouseEnter">
+                <Path.Style>
+                    <Style TargetType="Path">
+                        <Setter Property="Fill" Value="#FF20ABEC"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Fill" Value="Red"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Path.Style>
+                <Path.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-12.636"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Path.RenderTransform>
+            </Path>
+            <Path Stretch="Fill" Stroke="#00FFCE" HorizontalAlignment="Left" Margin="315.335,421.216,0,0" Width="37.449" 
+            x:Name="Armenia" VerticalAlignment="Top" Height="25.305"
+              Data="M2489,1341L2504,1339L2507,1343L2511,1345L2509,1349L2515,1354L2511,1359L2516,1363L2521,1365L2521,1375L2517,1375L2513,1367L2513,1365L2508,1365L2505,1361L2502,1361L2498,1357L2490,1354L2491,1346L2489,1341Z" RenderTransformOrigin="0.5,0.5" Grid.Column="1" MouseEnter="Armenia_MouseEnter">
+                <Path.Style>
+                    <Style TargetType="Path">
+                        <Setter Property="Fill" Value="#FF20ABEC"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Fill" Value="Red"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Path.Style>
+                <Path.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform AngleY="0.781"/>
+                        <RotateTransform Angle="-10.724"/>
+                        <TranslateTransform X="0.045" Y="0.236"/>
+                    </TransformGroup>
+                </Path.RenderTransform>
+            </Path>
+            <Path Stretch="Fill" Stroke="#00FFCE" HorizontalAlignment="Left" Margin="-789.598,-380.115,-481.407,-17.343" Width="2203.005" 
+            x:Name="Russia" VerticalAlignment="Top" Height="963.458"
+              Data="M3603,1186L3614,1217L3598,1211L3591,1235L3602,1252L3601,1264L3593,1254L3586,1266L3583,1253L3585,1237L3583,1219L3586,1206L3586,1183L3580,1165L3581,1140L3591,1131L3587,1123L3592,1120L3595,1132L3599,1150L3598,1168L3603,1186ZM2257,1121L2236,1121L2223,1119L2225,1110L2241,1104L2252,1107L2257,1110L2256,1116L2257,1121ZM56,840L63,847L60,826L91,831L112,857L101,869L83,871L83,897L78,902L68,902L60,893L45,885L42,874L31,869L18,873L12,863L15,853L1,860L6,872L0,884L0,770L27,793L56,822L56,840ZM4008,709L3995,711L3993,700L4008,686L4008,709ZM15,707L0,709L0,686L1,684L11,684L27,694L26,699L15,707ZM3602,623L3585,624L3563,619L3561,617L3571,602L3585,598L3601,613L3602,623ZM3682,547L3669,564L3651,560L3630,543L3633,529L3654,536L3682,547ZM3619,526L3610,558L3569,557L3551,567L3529,539L3535,508L3549,500L3579,502L3619,526ZM2644,713L2638,716L2601,712L2598,697L2578,687L2577,668L2588,660L2588,640L2610,607L2599,602L2626,566L2623,547L2648,524L2685,494L2722,486L2741,468L2762,461L2770,481L2763,495L2723,518L2689,539L2655,580L2638,619L2621,655L2623,685L2644,713ZM3195,460L3198,484L3208,472L3240,473L3265,496L3274,513L3272,536L3259,549L3230,573L3222,585L3235,591L3252,601L3262,593L3268,619L3272,608L3290,602L3326,609L3329,627L3375,633L3376,603L3399,610L3417,610L3435,630L3440,654L3434,669L3448,697L3465,711L3476,674L3494,690L3513,681L3534,692L3543,682L3561,687L3553,653L3567,637L3668,661L3677,683L3707,709L3752,703L3774,708L3783,722L3782,746L3795,755L3810,749L3830,748L3851,754L3872,750L3891,778L3905,768L3896,748L3901,734L3937,743L3960,741L3992,756L4008,770L4008,884L4007,884L3993,895L3979,893L3989,907L3995,928L4000,934L4002,944L3999,951L3978,945L3947,963L3937,966L3920,982L3904,996L3900,1007L3884,991L3855,1009L3850,1000L3839,1010L3824,1007L3821,1021L3807,1042L3808,1050L3820,1055L3819,1085L3809,1086L3804,1102L3808,1110L3789,1120L3785,1142L3769,1146L3765,1165L3749,1182L3745,1169L3740,1143L3734,1100L3739,1073L3749,1060L3749,1051L3767,1046L3787,1019L3806,996L3826,978L3835,945L3821,947L3814,966L3786,992L3777,963L3748,971L3720,1009L3730,1023L3705,1028L3688,1031L3688,1015L3671,1011L3657,1022L3623,1019L3587,1025L3551,1066L3508,1113L3526,1115L3531,1127L3542,1131L3549,1122L3561,1123L3577,1144L3578,1160L3569,1177L3568,1198L3563,1226L3546,1250L3542,1261L3527,1279L3512,1297L3505,1307L3490,1316L3483,1316L3476,1308L3461,1319L3460,1324L3458,1322L3458,1314L3464,1314L3465,1296L3462,1282L3472,1277L3485,1279L3493,1264L3497,1246L3501,1240L3507,1225L3488,1230L3479,1237L3462,1237L3457,1221L3444,1209L3425,1203L3421,1186L3417,1175L3413,1168L3406,1149L3396,1143L3379,1137L3365,1138L3351,1141L3342,1150L3348,1154L3348,1164L3342,1170L3332,1189L3332,1197L3316,1208L3303,1201L3289,1203L3284,1197L3277,1195L3261,1207L3246,1210L3236,1214L3222,1211L3211,1212L3205,1203L3194,1194L3182,1192L3168,1194L3158,1198L3142,1190L3140,1177L3127,1173L3117,1170L3104,1163L3093,1182L3097,1192L3086,1204L3070,1200L3059,1199L3052,1191L3040,1191L3031,1185L3014,1193L2992,1208L2981,1211L2976,1213L2970,1202L2956,1205L2951,1197L2943,1194L2938,1184L2932,1180L2916,1185L2901,1175L2895,1184L2870,1138L2856,1123L2860,1117L2832,1135L2821,1136L2822,1126L2808,1120L2796,1124L2793,1104L2773,1100L2763,1108L2735,1115L2729,1120L2688,1127L2683,1133L2691,1146L2680,1151L2682,1156L2671,1165L2689,1177L2687,1185L2671,1185L2668,1190L2653,1181L2636,1181L2624,1188L2611,1181L2586,1169L2569,1169L2546,1189L2545,1201L2533,1191L2524,1210L2527,1214L2521,1227L2530,1238L2539,1237L2546,1248L2545,1257L2550,1259L2545,1269L2534,1272L2523,1288L2534,1303L2532,1313L2545,1331L2538,1337L2536,1340L2531,1339L2523,1330L2520,1330L2513,1326L2510,1320L2500,1317L2493,1319L2491,1317L2476,1309L2459,1307L2450,1304L2449,1306L2434,1293L2422,1287L2412,1278L2420,1275L2429,1262L2423,1256L2440,1249L2439,1245L2429,1248L2430,1241L2435,1236L2446,1235L2448,1229L2445,1220L2450,1211L2450,1206L2433,1200L2427,1201L2420,1193L2411,1195L2397,1189L2398,1186L2394,1178L2385,1177L2384,1172L2387,1168L2379,1158L2368,1160L2365,1159L2362,1163L2358,1162L2355,1150L2352,1144L2354,1142L2363,1143L2368,1139L2364,1134L2357,1131L2358,1127L2353,1124L2346,1111L2349,1106L2347,1097L2337,1092L2331,1095L2329,1090L2317,1085L2314,1073L2313,1063L2308,1058L2312,1051L2309,1032L2317,1019L2315,1015L2328,1003L2316,993L2340,963L2350,949L2355,937L2338,920L2343,904L2333,884L2340,861L2327,830L2337,808L2320,788L2322,767L2331,764L2350,751L2361,740L2380,759L2410,767L2452,801L2461,815L2462,834L2449,849L2431,856L2381,835L2373,839L2391,859L2392,871L2393,898L2407,906L2416,913L2417,900L2411,889L2418,879L2445,896L2454,889L2446,870L2472,843L2483,845L2493,854L2499,835L2490,818L2496,801L2487,782L2519,792L2525,808L2511,812L2511,828L2520,838L2537,832L2540,813L2563,799L2602,773L2610,775L2599,793L2613,796L2621,786L2642,785L2658,772L2671,791L2684,771L2672,752L2678,742L2711,752L2726,761L2766,796L2774,781L2763,764L2762,758L2749,754L2752,739L2747,714L2746,703L2767,671L2774,637L2782,630L2812,640L2814,661L2804,689L2810,701L2814,724L2812,768L2824,787L2819,807L2797,847L2810,851L2814,841L2827,834L2830,820L2839,806L2833,789L2838,769L2826,767L2823,749L2832,716L2818,688L2837,664L2835,638L2840,637L2846,658L2842,692L2854,698L2849,673L2867,659L2890,657L2911,677L2901,647L2900,606L2919,598L2946,600L2970,595L2961,573L2974,546L2987,544L3009,523L3038,516L3042,504L3071,500L3080,510L3105,485L3125,486L3128,465L3139,444L3165,423L3184,440L3169,452L3195,460ZM3173,390L3111,411L3131,337L3140,331L3149,334L3177,368L3173,390ZM2573,254L2558,263L2548,268L2546,279L2533,289L2521,274L2528,253L2503,251L2525,238L2542,238L2544,256L2550,240L2561,228L2577,243L2573,254ZM3116,358L3092,365L3061,348L3043,326L3034,281L3019,268L3048,221L3072,204L3093,240L3119,304L3116,358Z" RenderTransformOrigin="0.5,0.5" Grid.ColumnSpan="2" MouseEnter="Russia_MouseEnter">
+                <Path.Style>
+                    <Style TargetType="Path">
+                        <Setter Property="Fill" Value="#FF20ABEC"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Fill" Value="Red"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Path.Style>
+                <Path.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform AngleX="5.464"/>
+                        <RotateTransform Angle="-21.077"/>
+                        <TranslateTransform X="41.535" Y="-13.82"/>
+                    </TransformGroup>
+                </Path.RenderTransform>
+            </Path>
+            <Path Stretch="Fill" Stroke="#00FFCE" HorizontalAlignment="Left" Margin="86.448,289.497,0,0" Width="202.963" 
+            x:Name="Ukraine" VerticalAlignment="Top" Height="127.484"
+            Data="M2358,1162L2362,1163L2365,1159L2368,1160L2379,1158L2387,1168L2384,1172L2385,1177L2394,1178L2398,1186L2397,1189L2411,1195L2420,1193L2427,1201L2433,1200L2450,1206L2450,1211L2445,1220L2448,1229L2446,1235L2435,1236L2430,1241L2429,1248L2420,1249L2413,1255L2403,1255L2393,1261L2394,1271L2399,1275L2410,1274L2408,1280L2396,1283L2381,1292L2375,1289L2377,1281L2365,1277L2367,1273L2378,1268L2374,1265L2357,1260L2356,1254L2346,1256L2342,1265L2333,1277L2328,1274L2323,1277L2318,1274L2321,1272L2323,1267L2326,1262L2325,1259L2327,1257L2328,1260L2335,1260L2338,1259L2336,1257L2337,1255L2333,1251L2331,1244L2327,1241L2328,1236L2323,1231L2318,1231L2310,1225L2303,1227L2300,1229L2295,1229L2293,1233L2284,1235L2281,1238L2275,1233L2268,1233L2261,1232L2257,1235L2256,1231L2250,1226L2252,1219L2255,1215L2257,1216L2254,1208L2265,1194L2270,1192L2271,1187L2266,1171L2271,1171L2277,1166L2286,1165L2297,1167L2309,1171L2318,1172L2322,1174L2326,1171L2329,1175L2339,1174L2344,1176L2345,1167L2348,1163L2358,1162Z" RenderTransformOrigin="0.5,0.5" Grid.Column="1" MouseEnter="Ukraine_MouseEnter">
+                <Path.Style>
+                    <Style TargetType="Path">
+                        <Setter Property="Fill" Value="#FF20ABEC"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Fill" Value="Red"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Path.Style>
+                <Path.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-2.447"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Path.RenderTransform>
+            </Path>
+            <Path Stretch="Fill" Stroke="#00FFCE" HorizontalAlignment="Left" Margin="94.275,241.493,0,0" Width="127.368" x:Name="Belarus" VerticalAlignment="Top" Height="68.792"
+            Data="M2265,1128L2276,1129L2288,1121L2291,1111L2300,1104L2299,1096L2305,1092L2317,1085L2329,1090L2331,1095L2337,1092L2347,1097L2349,1106L2346,1111L2353,1124L2358,1127L2357,1131L2364,1134L2368,1139L2363,1143L2354,1142L2352,1144L2355,1150L2358,1162L2348,1163L2345,1167L2344,1176L2339,1174L2329,1175L2326,1171L2322,1174L2318,1172L2309,1171L2297,1167L2286,1165L2277,1166L2271,1171L2266,1171L2265,1163L2262,1155L2269,1151L2269,1144L2266,1137L2265,1128Z" RenderTransformOrigin="0.5,0.5" Grid.Column="1" MouseEnter="Belarus_MouseEnter">
+                <Path.Style>
+                    <Style TargetType="Path">
+                        <Setter Property="Fill" Value="#FF20ABEC"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Fill" Value="Red"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Path.Style>
+                <Path.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform AngleX="-0.003"/>
+                        <RotateTransform Angle="-4.38"/>
+                        <TranslateTransform X="0.002"/>
+                    </TransformGroup>
+                </Path.RenderTransform>
+            </Path>
+            <Path Stretch="Fill" Stroke="#00FFCE" HorizontalAlignment="Left" Margin="391.394,65.67,0,0" Width="136.84" 
+            x:Name="Sweden" VerticalAlignment="Top" Height="141.963"
+              Data="M2251,864L2240,882L2242,898L2224,919L2202,940L2194,973L2202,990L2213,1002L2203,1027L2191,1032L2187,1067L2181,1086L2167,1084L2161,1100L2148,1101L2144,1082L2135,1059L2127,1029L2131,1016L2141,1001L2144,974L2137,963L2137,931L2144,907L2155,908L2159,897L2155,889L2172,851L2183,820L2190,799L2201,799L2204,782L2225,787L2227,767L2234,765L2248,781L2266,801L2266,845L2270,856L2251,864Z" RenderTransformOrigin="0.5,0.5" Grid.ColumnSpan="2" MouseEnter="Sweden_MouseEnter">
+                <Path.Style>
+                    <Style TargetType="Path">
+                        <Setter Property="Fill" Value="#FF20ABEC"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Fill" Value="Red"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Path.Style>
+                <Path.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform AngleY="-13.757"/>
+                        <RotateTransform Angle="-22.25"/>
+                        <TranslateTransform X="-4.977" Y="-12.598"/>
+                    </TransformGroup>
+                </Path.RenderTransform>
+            </Path>
+            <Path Stretch="Fill" Stroke="#00FFCE" HorizontalAlignment="Left" Margin="268.341,-148.307,0,0" Width="267.544" 
+            x:Name="Norwey" VerticalAlignment="Top" Height="340.18"
+              Data="M2317,697L2352,722L2338,731L2350,751L2331,764L2322,767L2327,745L2312,732L2295,743L2290,766L2279,780L2267,772L2253,774L2240,757L2234,765L2227,767L2225,787L2204,782L2201,799L2190,799L2183,820L2172,851L2155,889L2159,897L2155,908L2144,907L2137,931L2137,963L2144,974L2141,1001L2131,1016L2127,1029L2119,1016L2097,1041L2082,1045L2067,1035L2063,1011L2059,959L2070,943L2099,923L2121,896L2141,859L2168,805L2187,782L2217,743L2242,729L2260,730L2277,703L2297,704L2317,697ZM2279,415L2254,436L2234,424L2242,410L2235,393L2258,382L2263,403L2279,415ZM2207,309L2244,354L2216,376L2209,416L2200,426L2194,468L2181,470L2157,439L2167,421L2150,406L2129,359L2120,312L2150,289L2156,311L2172,311L2177,289L2193,287L2207,309ZM2287,263L2309,286L2292,320L2260,327L2227,317L2225,300L2209,299L2197,269L2231,250L2248,267L2259,246L2287,263Z" RenderTransformOrigin="0.5,0.5" Grid.ColumnSpan="2" MouseEnter="Norwey_MouseEnter">
+                <Path.Style>
+                    <Style TargetType="Path">
+                        <Setter Property="Fill" Value="#FF20ABEC"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Fill" Value="Red"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Path.Style>
+                <Path.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-30.92"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Path.RenderTransform>
+            </Path>
+
+            <Path Stretch="Fill" Stroke="#00FFCE" HorizontalAlignment="Left" Margin="229.599,426.475,0,0" Width="33.683" 
+            x:Name="Portugal" VerticalAlignment="Top" Height="73.044"
+              Data="M1903,1330L1907,1326L1912,1324L1915,1331L1921,1331L1923,1329L1930,1329L1933,1337L1927,1341L1927,1352L1926,1355L1925,1361L1920,1363L1925,1371L1922,1381L1926,1385L1924,1389L1920,1394L1921,1399L1916,1402L1910,1400L1905,1402L1906,1391L1905,1382L1900,1381L1898,1375L1899,1366L1903,1361L1904,1355L1906,1346L1906,1340L1904,1335L1903,1330Z" RenderTransformOrigin="0.5,0.5" MouseEnter="Portugal_MouseEnter">
+                <Path.Style>
+                    <Style TargetType="Path">
+                        <Setter Property="Fill" Value="#FF20ABEC"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Fill" Value="Red"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Path.Style>
+                <Path.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="4.535"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Path.RenderTransform>
+            </Path>
+            <Path Stretch="Fill" Stroke="#00FFCE" HorizontalAlignment="Left" Margin="232.972,238.435,0,0" Width="38.682" 
+            x:Name="Ireland" VerticalAlignment="Top" Height="51.481"
+              Data="M1935,1129L1937,1143L1928,1159L1908,1170L1893,1167L1902,1148L1896,1129L1911,1114L1919,1105L1922,1115L1919,1126L1926,1125L1935,1129Z" RenderTransformOrigin="0.5,0.5" MouseEnter="Ireland_MouseEnter">
+                <Path.Style>
+                    <Style TargetType="Path">
+                        <Setter Property="Fill" Value="#FF20ABEC"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Fill" Value="Red"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Path.Style>
+                <Path.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform AngleY="-0.435"/>
+                        <RotateTransform Angle="2.942"/>
+                        <TranslateTransform X="-0.007" Y="0.14"/>
+                    </TransformGroup>
+                </Path.RenderTransform>
+            </Path>
+            <Path Stretch="Fill" Stroke="#00FFCE" HorizontalAlignment="Left" Margin="256.121,23.692,0,0" Width="42.422" 
+            x:Name="Iceland" VerticalAlignment="Top" Height="63.263"
+              Data="M1842,844L1840,861L1852,880L1838,900L1806,917L1796,922L1781,918L1750,910L1761,899L1737,886L1757,881L1756,873L1733,867L1740,849L1757,845L1775,863L1792,849L1806,856L1824,842L1842,844Z" RenderTransformOrigin="0.5,0.5" MouseEnter="Iceland_MouseEnter">
+                <Path.Style>
+                    <Style TargetType="Path">
+                        <Setter Property="Fill" Value="#FF20ABEC"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Fill" Value="Red"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Path.Style>
+                <Path.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="442.244"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Path.RenderTransform>
+            </Path>
+            <Path Stretch="Fill" Stroke="#00FFCE" HorizontalAlignment="Left" Margin="328.64,394.239,0,0" Width="38.07" 
+            x:Name="Azerbaijan" VerticalAlignment="Top" Height="35.37"
+              Data="M2505,1361L2508,1365L2513,1365L2513,1367L2517,1375L2510,1373L2504,1367L2502,1361L2505,1361ZM2531,1339L2536,1340L2538,1337L2545,1331L2550,1338L2556,1349L2561,1350L2565,1354L2556,1355L2554,1366L2552,1371L2548,1374L2548,1381L2545,1382L2538,1375L2542,1368L2539,1363L2535,1364L2521,1375L2521,1365L2516,1363L2511,1359L2515,1354L2509,1349L2511,1345L2507,1343L2504,1339L2507,1337L2515,1341L2521,1342L2523,1340L2517,1332L2520,1330L2523,1330L2531,1339Z" RenderTransformOrigin="0.5,0.5" Grid.Column="1" MouseEnter="Azerbaijan_MouseEnter">
+                <Path.Style>
+                    <Style TargetType="Path">
+                        <Setter Property="Fill" Value="#FF20ABEC"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Fill" Value="Red"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Path.Style>
+                <Path.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-12.53"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Path.RenderTransform>
+            </Path>
+        </Grid>
+        <Grid x:Name="countryInformationGrid" Margin="247,0,-374,0" Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="270*"/>
+                <RowDefinition Height="42*"/>
+                <RowDefinition Height="35*"/>
+                <RowDefinition Height="257*"/>
+            </Grid.RowDefinitions>
+            <Rectangle Fill="#FFEDF2F5" Stroke="#FF1CD3FB" Margin="336,0,158,0" Grid.RowSpan="4"/>
+            <TextBlock Text="  Država" FontSize="24" x:Name="NameOfCountry" Margin="379,40,0,0" RenderTransformOrigin="1.765,0.562" VerticalAlignment="Top" FontFamily="Segoe UI Black" Height="42" HorizontalAlignment="Left" Width="347" Grid.Row="1" Grid.RowSpan="3"/>
+            <TextBlock Text="  Grad" FontSize="24" x:Name="NameOfCity" Margin="379,10,0,0" RenderTransformOrigin="1.765,0.562" VerticalAlignment="Top" Height="42" HorizontalAlignment="Left" Width="326" Grid.Row="3" FontStyle="Italic"/>
+
+            <Image Source="image/flag.jpg" Stretch="Fill" Margin="379,80,195,0" x:Name="Flag" ClipToBounds="False">
+                <Image.BitmapEffect>
+                    <OuterGlowBitmapEffect GlowColor="#FF565656" GlowSize="10" Opacity="0.8"/>
+                </Image.BitmapEffect>
+            </Image>
+            <Button Content="Button" HorizontalAlignment="Left" Margin="698,10,0,0" VerticalAlignment="Top" Width="28" Height="40" BorderBrush="{x:Null}" Foreground="{x:Null}" Click="Close_Click">
+                <Button.Background>
+                    <ImageBrush ImageSource="image/ostalo/cancel.png" Stretch="Uniform"/>
+                </Button.Background>
+            </Button>
+        </Grid>
+        <Path Stretch="Fill" Stroke="#00FFCE" HorizontalAlignment="Left" Margin="304.807,242.842,0,0" Width="81.713" 
+            x:Name="Latvia" VerticalAlignment="Top" Height="31.424"
+            Data="M2238,1087L2239,1072L2244,1059L2254,1052L2263,1068L2272,1067L2274,1051L2284,1048L2289,1050L2298,1058L2308,1058L2313,1063L2314,1073L2317,1085L2305,1092L2299,1096L2288,1086L2282,1085L2280,1081L2270,1083L2251,1081L2238,1087Z" RenderTransformOrigin="0.5,0.5" Grid.Column="1" MouseEnter="Latvia_MouseEnter">
+            <Path.Style>
+                <Style TargetType="{x:Type Path}">
+                    <Setter Property="Fill" Value="#FF20ABEC"/>
+                    <Style.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Fill" Value="Red"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </Path.Style>
+            <Path.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="12.735"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Path.RenderTransform>
+        </Path>
+        <Path Stretch="Fill" Stroke="#00FFCE" HorizontalAlignment="Left" Margin="336.39,230.799,0,0" Width="48.606" 
+            x:Name="Estonia" VerticalAlignment="Top" Height="21.454"
+            Data="M2274,1051L2276,1039L2272,1042L2265,1034L2264,1022L2278,1016L2292,1012L2304,1016L2315,1015L2317,1019L2309,1032L2312,1051L2308,1058L2298,1058L2289,1050L2284,1048L2274,1051Z" RenderTransformOrigin="0.5,0.5" Grid.Column="1" MouseEnter="Estonia_MouseEnter">
+            <Path.Style>
+                <Style TargetType="{x:Type Path}">
+                    <Setter Property="Fill" Value="#FF20ABEC"/>
+                    <Style.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Fill" Value="Red"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </Path.Style>
+            <Path.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="-1.416"/>
+                    <RotateTransform Angle="13.536"/>
+                    <TranslateTransform X="0.372" Y="0.026"/>
+                </TransformGroup>
+            </Path.RenderTransform>
+        </Path>
+        <Path Stretch="Fill" Stroke="#00FFCE" HorizontalAlignment="Left" Margin="219.334,432.129,0,0" Width="3.667" 
+            x:Name="San_Marino" VerticalAlignment="Top" Height="7.044"
+              Data="M2071,1197L2073,1201L2073,1208L2069,1209L2067,1207L2068,1198L2071,1197Z" RenderTransformOrigin="0.5,0.5" Grid.ColumnSpan="1" Grid.Column="1" MouseEnter="San_Marino_MouseEnter">
+            <Path.Style>
+                <Style TargetType="{x:Type Path}">
+                    <Setter Property="Fill" Value="#FF20ABEC"/>
+                    <Style.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Fill" Value="Red"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </Path.Style>
+        </Path>
+        <Path Stretch="Fill" Stroke="#00FFCE" HorizontalAlignment="Left" Margin="210.034,450.296,0,0" Width="3.967" 
+            x:Name="Vatican" VerticalAlignment="Top" Height="4.21"
+              Data="M2071,1197L2073,1201L2073,1208L2069,1209L2067,1207L2068,1198L2071,1197Z" RenderTransformOrigin="30.208,13.808" Grid.Column="1" MouseEnter="Vatican_MouseEnter">
+            <Path.Style>
+                <Style TargetType="{x:Type Path}">
+                    <Setter Property="Fill" Value="#FF20ABEC"/>
+                    <Style.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Fill" Value="Red"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </Path.Style>
+        </Path>
+        <Path Stretch="Fill" Stroke="#00FFCE" HorizontalAlignment="Left" Margin="97.5,432.129,0,0" Width="7.467" 
+            x:Name="Andora" VerticalAlignment="Top" Height="6.044"
+              Data="M2071,1197L2073,1201L2073,1208L2069,1209L2067,1207L2068,1198L2071,1197Z" RenderTransformOrigin="0.335,0.579" Grid.Column="1" MouseEnter="Andora_MouseEnter">
+            <Path.Style>
+                <Style TargetType="{x:Type Path}">
+                    <Setter Property="Fill" Value="#FF20ABEC"/>
+                    <Style.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Fill" Value="Red"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </Path.Style>
+        </Path>
+        <Path Stretch="Fill" Stroke="#00FFCE" HorizontalAlignment="Left" Margin="190.5,378.296,0,0" Width="7.967" 
+            x:Name="Liechtenstein" VerticalAlignment="Top" Height="7.044"
+              Data="M2071,1197L2073,1201L2073,1208L2069,1209L2067,1207L2068,1198L2071,1197Z" RenderTransformOrigin="0.5,0.5" Grid.Column="1" MouseEnter="Liechtenstein_MouseEnter">
+            <Path.Style>
+                <Style TargetType="{x:Type Path}">
+                    <Setter Property="Fill" Value="#FF20ABEC"/>
+                    <Style.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Fill" Value="Red"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </Path.Style>
+        </Path>
+
+        <Path Stretch="Fill" Stroke="#00FFCE" HorizontalAlignment="Left" Margin="210.034,537.296,0,0" Width="8.467" 
+            x:Name="Malta" VerticalAlignment="Top" Height="7.044"
+              Data="M2071,1197L2073,1201L2073,1208L2069,1209L2067,1207L2068,1198L2071,1197Z" RenderTransformOrigin="0.5,0.5" Grid.Column="1" MouseEnter="Malta_MouseEnter">
+            <Path.Style>
+                <Style TargetType="{x:Type Path}">
+                    <Setter Property="Fill" Value="#FF20ABEC"/>
+                    <Style.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Fill" Value="Red"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </Path.Style>
+        </Path>
+        <Path Stretch="Fill" Stroke="#00FFCE" HorizontalAlignment="Left" Margin="160.5,425.379,0,0" Width="3.217" 
+            x:Name="Monako" VerticalAlignment="Top" Height="6.044"
+              Data="M2071,1197L2073,1201L2073,1208L2069,1209L2067,1207L2068,1198L2071,1197Z" RenderTransformOrigin="0.5,0.5" Grid.Column="1" MouseEnter="Monako_MouseEnter">
+            <Path.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="77.081"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Path.RenderTransform>
+            <Path.Style>
+                <Style TargetType="{x:Type Path}">
+                    <Setter Property="Fill" Value="#FF20ABEC"/>
+                    <Style.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Fill" Value="Red"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </Path.Style>
+        </Path>
+    </Grid>
+
+</Window>

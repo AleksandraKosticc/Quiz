@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{93167F43-B1C1-481F-BAB8-03E05BA3002B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Kviz</RootNamespace>
+    <AssemblyName>Kviz</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="WinFormAnimation, Version=1.6.0.4, Culture=neutral, PublicKeyToken=310fd07b25df79b3, processorArchitecture=MSIL">
+      <HintPath>packages\WinFormAnimation.1.6.0.4\lib\net40\WinFormAnimation.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="Country.xaml.cs">
+      <DependentUpon>Country.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Level1.xaml.cs">
+      <DependentUpon>Level1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Level2.xaml.cs">
+      <DependentUpon>Level2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Level3.xaml.cs">
+      <DependentUpon>Level3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Message.xaml.cs">
+      <DependentUpon>Message.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SecondMessage.xaml.cs">
+      <DependentUpon>SecondMessage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SecondWindow.xaml.cs">
+      <DependentUpon>SecondWindow.xaml</DependentUpon>
+    </Compile>
+    <Page Include="Country.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Level1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Level2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Level3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="Message.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SecondMessage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SecondWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="image\austria-flag-small.jpg" />
+    <Resource Include="image\belarus-flag-small.jpg" />
+    <Resource Include="image\belgium-flag-small.jpg" />
+    <Resource Include="image\bosnia-and-herzegovina-flag-small.jpg" />
+    <Resource Include="image\bulgaria-flag-small.jpg" />
+    <Resource Include="image\croatia-flag-small.jpg" />
+    <Resource Include="image\czech-republic-flag-small.jpg" />
+    <Resource Include="image\denmark-flag-small.jpg" />
+    <Resource Include="image\finland-flag-small.jpg" />
+    <Resource Include="image\france-flag-small.jpg" />
+    <Resource Include="image\germany-flag-small.jpg" />
+    <Resource Include="image\greece-flag-small.jpg" />
+    <Resource Include="image\hungary-flag-small.jpg" />
+    <Resource Include="image\iceland-flag-small.jpg" />
+    <Resource Include="image\ireland-flag-small.jpg" />
+    <Resource Include="image\italy-flag-small.jpg" />
+    <Resource Include="image\latvia-flag-small.jpg" />
+    <Resource Include="image\lithuania-flag-small.jpg" />
+    <Resource Include="image\luxembourg-flag-small.jpg" />
+    <Resource Include="image\malta-flag-small.jpg" />
+    <Resource Include="image\monaco-flag-small.jpg" />
+    <Resource Include="image\montenegro-flag-small.jpg" />
+    <Resource Include="image\netherlands-flag-small.jpg" />
+    <Resource Include="image\north-macedonia-flag-small.jpg" />
+    <Resource Include="image\norway-flag-small.jpg" />
+    <Resource Include="image\poland-flag-small.jpg" />
+    <Resource Include="image\portugal-flag-small.jpg" />
+    <Resource Include="image\romania-flag-small.jpg" />
+    <Resource Include="image\russia-flag-small.jpg" />
+    <Resource Include="image\serbia-flag-small.jpg" />
+    <Resource Include="image\slovakia-flag-small.jpg" />
+    <Resource Include="image\slovenia-flag-small.jpg" />
+    <Resource Include="image\spain-flag-small.jpg" />
+    <Resource Include="image\sweden-flag-small.jpg" />
+    <Resource Include="image\switzerland-flag-small.jpg" />
+    <Resource Include="image\ukraine-flag-small.jpg" />
+    <Resource Include="image\united-kingdom-flag-small.jpg" />
+    <Resource Include="image\vatican-city-flag-small.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="image\pozadine\pozadina.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="image\pozadine\druga_pozadina.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="image\georgia-flag-small.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="image\turkey-flag-small.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="image\armenia-flag-medium.jpg" />
+    <Resource Include="image\cyprus-flag-small.jpg" />
+    <Resource Include="image\liechtenstein-flag-small.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="image\azerbaijan-flag-small.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="image\albania-flag-small.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="image\andorra-flag-small.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="image\moldova-flag-small.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="image\estonia-flag-small.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="image\san-marino-flag-small.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="image\ostalo\sad-face.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="image\ostalo\heart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="image\ostalo\back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="image\ostalo\help-web-button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="image\ostalo\close-cross.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="image\ostalo\cancel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="image\ostalo\happy-face.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="image\ostalo\background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="image\flag.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

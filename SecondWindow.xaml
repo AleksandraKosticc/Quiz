@@ -1,0 +1,30 @@
+﻿<Window x:Class="Kviz.SecondWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Kviz"
+        mc:Ignorable="d"
+        Title="SecondWindow" Height="600" Width="800"
+        WindowStyle="None" ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen">
+    <Grid RenderTransformOrigin="0.501,0.519" Margin="-86,0,-84,-104">
+        <Grid.Background>
+            <ImageBrush ImageSource="image/pozadine/druga_pozadina.png"/>
+        </Grid.Background>
+        <Button Content="DRŽAVE" HorizontalAlignment="Center" Margin="387,124,363,0" VerticalAlignment="Top" Width="198" Height="80" Background="#FF1EAA10" Foreground="White" FontSize="16" FontFamily="Segoe UI Black" Click="OpenLevel1"/>
+        <Button Content="DA / NE" HorizontalAlignment="Center" Margin="387,240,363,0" VerticalAlignment="Top" Width="198" Height="82" Background="#FF1EAA10" Foreground="White" FontFamily="Segoe UI Black" FontSize="16" Click="OpenLevel2"/>
+        <Button Content="GLAVNI GRADOVI" HorizontalAlignment="Center" Margin="387,358,363,0" VerticalAlignment="Top" Width="198" Height="80" Background="#FF1EAA10" Foreground="White" FontSize="16" FontFamily="Segoe UI Black" Click="OpenLevel3"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="90,10,0,0" VerticalAlignment="Top" Width="84" Height="54" Click="OpenCountry" BorderBrush="{x:Null}" Foreground="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="image/ostalo/help-web-button.png" Stretch="Uniform"/>
+            </Button.Background>
+        </Button>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="839,10,0,0" VerticalAlignment="Top" Width="28" Height="40" BorderBrush="{x:Null}" Foreground="{x:Null}" Click="Close_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="image/ostalo/cancel.png" Stretch="Uniform"/>
+            </Button.Background>
+        </Button>
+
+    </Grid>
+</Window>
